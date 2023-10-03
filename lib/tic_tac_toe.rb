@@ -1,5 +1,6 @@
 # DON'T EDIT ME!
 
+
 class Board
   attr_reader :rows
 
@@ -206,6 +207,7 @@ class ComputerPlayer
 
   def move(game, mark)
     winner_move(game, mark) || random_move(game)
+
   end
 
   private
